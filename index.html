@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页聊天室</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<div id="app">
+    <header>
+        <div id="personal_information">
+            <img src="" alt="头像">
+            <p><b>春眠不觉晓</b><br/>Now in my sepia</p>
+        </div>
+        <div id="search_box"></div>
+    </header>
+    <aside>
+        <div id="friend_list">
+            <ul>
+                <li>
+                    <img src="" alt="头像">
+                    <p><b>春眠不觉晓</b><br/>Now in my sepia</p>
+                </li>
+            </ul>
+            <button type="button">词云</button>
+            <button type="button">+</button>
+        </div>
+    </aside>
+    <main>
+        <div id="chat_box">
+            <div>
+                <img src="" alt="头像">
+                <p><b>春眠不觉晓</b><br/>Now in my sepia</p>
+                <input type="image" src="Resource/Image/size.png" id="setting" alt="设置" />
+            </div>
+            <ul>
+                <li>我是消息对话文本</li>
+            </ul>
+            <div>
+                <input type="image" src="Resource/Image/size.png"  alt="表情" />
+                <input type="image" src="Resource/Image/size.png"  alt="历史" />
+                <input type="button" value="发送" />
+            </div>
+            <input type="text" />
+        </div>
+    </main>
+</div>
+
+
+
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="./main.js"></script>
+</html>
